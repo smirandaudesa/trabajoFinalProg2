@@ -5,6 +5,6 @@
 
 let controladores={
     index: function(req,res) {
-        return res.render
-    }
+        return res.render (' index', {contenido: ' index'})
+    },
 }
